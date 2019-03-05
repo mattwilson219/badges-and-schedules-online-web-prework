@@ -12,7 +12,7 @@ end
 
 def assign_rooms(names)
   room_asign = 0 
-  names do |name|
+  names.each do |name|
  puts "Hello, #{name}! You'll be assigned to room #{room_asign}!"
   room_asign += 1
   end
